@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin-top: 23%;
+}
+input{
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 6px;
+}
+input::placeholder{
+    color: #000;
+}
+button{
+    padding: 10px 30px;
+    color: rgb(114, 47, 47);
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#result{
+    margin-top: 10px;
+    background-color: #00ffff;
+    padding: 20px;
+    border-radius: 6px;
+}
